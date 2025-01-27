@@ -2,7 +2,6 @@
 layout: post
 title: "Custom Anki Template for Learning Vocabulary"
 date: 2025-01-26
-categories: [English Learning, Anki]
 ---
 
 I always try to improve my English, and increasing vocabulary is an important part of that. I use Anki to create flashcards with the words I want to learn and review the cards daily.
@@ -36,6 +35,8 @@ I don’t share my deck because the words I’m learning might not be useful for
 
    Remove the default existing fields, "Front" and "Back," and click **Save**.
 
+   ![Anki Vocabulary Template Fields]({{ "/assets/images/anki-vocabulary-fields.webp" | relative_url }}){: .responsive-image }
+
 4. Set up the **Front side template** by clicking the **Cards** button. Add the following code to the Front Template:
    ```
    {% raw %}{{Definition}}{% endraw %}
@@ -44,6 +45,8 @@ I don’t share my deck because the words I’m learning might not be useful for
    {% raw %}{{type:Word}}{% endraw %}
    ```
    
+   ![Anki Vocabulary Template Front Side Setup]({{ "/assets/images/anki-vocabulary-front-side-setup.webp" | relative_url }}){: .responsive-image }
+
 5. Set up the **Back side template** by adding the following code to the Back Template:
    ```
    {% raw %}{{Definition}}{% endraw %}
@@ -65,6 +68,8 @@ I don’t share my deck because the words I’m learning might not be useful for
    ```
    Click **Save**.
 
+   ![Anki Vocabulary Template Back Side Setup]({{ "/assets/images/anki-vocabulary-back-side-setup.webp" | relative_url }}){: .responsive-image }
+
 ### Creating Cards
 
 1. On Anki’s main screen, press the **Create Deck** button and name it with the language you’re learning, e.g., "English Vocabulary."
@@ -79,6 +84,8 @@ I don’t share my deck because the words I’m learning might not be useful for
 3. After filling in all the fields, press the **Add** button at the bottom of the window.
 
 4. To review your card, select your deck on the Anki main screen and press the **Study Now** button.
+   ![Anki Vocabulary Template Front Side Exaple]({{ "/assets/images/anki-vocabulary-example-card-front.webp" | relative_url }}){: .responsive-image }
+   ![Anki Vocabulary Template Back Side Exaple]({{ "/assets/images/anki-vocabulary-example-card-back.webp" | relative_url }}){: .responsive-image }
 
 ### Resources for Card Information
 - **Images**: [Google Images](https://www.google.com/imghp) or [DuckDuckGo](https://duckduckgo.com/)

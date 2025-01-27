@@ -27,8 +27,18 @@ baseurl: "/blog"
 
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
+
+customStyleFile:
+  /override/template.css
+
+minima:
+  include_css:
+    - "/assets/css/style.css"
+
+permalink: /:title.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.
